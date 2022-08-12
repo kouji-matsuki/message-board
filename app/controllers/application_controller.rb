@@ -1,23 +1,3 @@
 class ApplicationController < ActionController::Base
-  def index
-  end
-
-  def show
-  end
-
-  def new
-  end
-
-  def create
-  end
-
-  def edit
-  end
-
-  def update
-  end
-
-  def destroy
-  end
-
+  self.abstract_class = true
 end
