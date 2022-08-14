@@ -16,7 +16,7 @@ default: &default
   username: dbuser
   password: dbpass
   socket: /var/run/mysqld/mysqld.sock
-
+  
 development:
   <<: *default
   database: message_board_development
