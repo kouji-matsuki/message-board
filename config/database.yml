@@ -55,3 +55,4 @@ production:
   database: message_board_production
   username: message_board
   password: <%= ENV['MESSAGE_BOARD_DATABASE_PASSWORD'] %>
+  
